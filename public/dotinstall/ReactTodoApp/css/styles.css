@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+.container h1 {
+  font-size: 22px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+.container ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container li {
+  line-height: 30px;
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.cmd {
+  font-size: 12px;
+  cursor: pointer;
+  color: #08c;
+  margin-right: 10px;
+  float: right;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.container input[type="text"] {
+  font-size: 18px;
+  width: 200px;
+  border: 1px solid #dee7ec;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.container input[type="submit"] {
+  background: #4fcfdf;
+  margin-right: 5px;
+  padding: 12px 15px;
+  border: 1px solid #dee7ec;
+  border-radius: 3px;
+  float: right;
+}
+
+h1 > span {
+  color: #ccc;
+  font-size: 12px;
+  font-weight: nomal;
+  margin-left: 5px;
+}
+
+h1 > button {
+  padding: 7px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  float: right;
+}
+
+.done {
+  text-decoration: line-through;
+  color: grey;
+}

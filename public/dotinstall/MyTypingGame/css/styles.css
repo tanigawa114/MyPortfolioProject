@@ -1,0 +1,16 @@
+body {
+  padding-top: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+/* 出題領域 */
+#target {
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+/* 正解数・ミス回数・制限時間表示領域 */
+.info {
+  color: #ccc;
+}
